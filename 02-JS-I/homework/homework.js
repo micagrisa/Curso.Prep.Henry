@@ -8,7 +8,6 @@ const nuevoNum = 13;
 
 // Crea una variable booleana:
 const nuevoBool = 5 === 5;
-// hola prueba
 
 // Resuelve el siguiente problema matemático:
 const nuevaResta = 10 - 5 === 5;
@@ -28,8 +27,7 @@ const nuevoModulo = 21 % 5 === 1;
 
 function devolverString(str) {
   // "Return" la string provista: str
-  // Tu código: var variable = str [return (str)]
-  
+ var consigna = 'str'{return 'str'}; 
 }
 
 function suma(x, y) {
@@ -42,7 +40,9 @@ function suma(x, y) {
 
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
-  // Tu código: 20 - 10 === 10
+  var x = 10 ;
+  var y = 7 ;
+  // Tu código: x - y === 10
   
 }
 
