@@ -27,16 +27,17 @@ const nuevoModulo = 21 % 5 === 1;
 
 function devolverString(str) {
   // "Return" la string provista: str
- function consigna (str){
-  return 'str'; 
+  // Tu código:
+  console.log (return + str)
  }
 }
 
 function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
-  // Tu código: x = 10 y = 13
-  // x + y === 23
+  // Tu código:
+  const x = 4 ;
+  const y = 7 ;
   
 }
 
