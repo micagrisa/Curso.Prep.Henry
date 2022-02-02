@@ -35,7 +35,8 @@ function devolverString(str) {
 function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
-  // Tu código: 10 + 10 === 20
+  // Tu código: x = 10 y = 13
+  // x + y === 23
   
 }
 
