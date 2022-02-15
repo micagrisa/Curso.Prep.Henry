@@ -5,15 +5,9 @@ function obtenerMayor(x, y) {
   // Devuelve el número más grande
   // Si son iguales, devuelve cualquiera de los dos
   // Tu código:
-<<<<<<< HEAD
   if(x < y) {return y}
   else if (x === y) {return x}
   else {return x};
-=======
- if(x < y) {return y}
- else if (x === y) {return x}
- else {return x};
->>>>>>> 0eff2eb08e53a336cc2115a1912aad0215da0324
 }
 
 function mayoriaDeEdad(edad) {
@@ -87,31 +81,21 @@ function esEntero(numero) {
   // De lo contrario, devuelve "false"
   // Pista: Puedes resolver esto usando `Math.floor`
   // Tu código:
-<<<<<<< HEAD
   if (numero % 1 === 0) {return true}
-=======
  if (numero % 1 === 0) {return true}
->>>>>>> 0eff2eb08e53a336cc2115a1912aad0215da0324
  else {return false};
 }
 
 function fizzBuzz(numero) {
-  // Si "numero" es divisible entre 3, devuelve "fizz"
-  // Si "numero" es divisible entre 5, devuelve "buzz"
-  // Si "numero" es divisible entre 3 y 5 (ambos), devuelve "fizzbuzz"
-  // De lo contrario, devuelve el numero
-<<<<<<< HEAD
-  if (numero % 15 === 0 ) {return "fizzbuzz"}
-  else if (numero % 5 === 0 ) {return "buzz"}
-  else if (numero % 3 === 0 ) {return "fizz"}
-  else {return (numero)};
-=======
+ // Si "numero" es divisible entre 3, devuelve "fizz"
+ // Si "numero" es divisible entre 5, devuelve "buzz"
+ // Si "numero" es divisible entre 3 y 5 (ambos), devuelve "fizzbuzz"
+ // De lo contrario, devuelve el numero
  // Tu código:
- if (numero%3===0) {return "fizz"}
- else if (numero % 3 ===0 && numero % 5 === 0 ) {return"fizzbuzz"}
+ if (numero % 15 === 0) {return"fizzbuzz"}
+ else if (numero%3===0) {return "fizz"}
  else if (numero % 5 === 0) {return "buzz"}
  else {return (numero)};
->>>>>>> 0eff2eb08e53a336cc2115a1912aad0215da0324
 }
 
 function operadoresLogicos(num1, num2, num3) {
@@ -121,19 +105,11 @@ function operadoresLogicos(num1, num2, num3) {
   //Si num3 es más grande que num1 y num2, aumentar su valor en 1 y retornar el nuevo valor.
   //0 no es ni positivo ni negativo. Si alguno de los argumentos es 0, retornar "Error".
   //Si no se cumplen ninguna de las condiciones anteriores, retornar false. 
-<<<<<<< HEAD
-  if (num3===0 || num2===0 || num1===0) {return "Error"} 
-  else if ( num1<0 || num2<0 || num3<0) {return "Hay negativos"}
+  if (num3 === 0 || num2 === 0 || num1 === 0 ) {return "Error"} 
+  else if ( num1 < 0 || num2 < 0 || num3 < 0) {return "Hay negativos"}
   else if (num3>num1 && num3>num2 ) {return num3 + 1}
   else if ( num1> num2 && num1>num3 && num1>0) { return "Número 1 es mayor y positivo"}
   else {return false}
-=======
-  if ( num1> num2 && num1>num3 && num1>0) { return "Número 1 es mayor y positivo"}
-  else if ( num1<0 || num2<0 || num<0) {return "Hay negativos"}
-  else if (num3>num1 && num3>num2 ) {return num3+=1}
-  else if (num3===0 || num2===0 || num1===0) {return "Error"}
-  else {return "false"};
->>>>>>> 0eff2eb08e53a336cc2115a1912aad0215da0324
 }
 
 function esPrimo(numero) {
@@ -142,21 +118,15 @@ function esPrimo(numero) {
   // Pista: un número primo solo es divisible por sí mismo y por 1
   // Pista 2: Puedes resolverlo usando un bucle `for`
   // Nota: Los números 0 y 1 NO son considerados números primos
-<<<<<<< HEAD
-  if( numero < 2) return false;
-  if(numero === 2) return true;
-  for(var i = 2; i < numero; i++) {
-    if(numero % i === 0) 
-      return false;
+  if (  número  <  2 )  return  falso ;
+  if ( numero  ===  2 )  return verdadero ;
+  for ( var  i  =  2 ;  i  <  numero ;  i ++ )  {
+    si ( numero  %  i  ===  0 )  {
+      return  falso ;
     }
-=======
-  if (  nnumero===0 ||  numero===1)  {return  falso} ;
-  if ( numero  ===  2 )  {return  verdadero} ;
-  for ( var  i  =  2 ;  i  <  numero ;  i ++ ) 
-   {si ( numero  %  i  ===  0 )  } {return  falso} ;
->>>>>>> 0eff2eb08e53a336cc2115a1912aad0215da0324
+  }
+  return  verdadero ;
 }
-
 function esVerdadero(valor){
   //Escribe una función que reciba un valor booleano y retorne “Soy verdadero” 
   //si su valor es true y “Soy falso” si su valor es false.
@@ -194,7 +164,7 @@ function doWhile(numero) {
 // No modificar nada debajo de esta línea
 // --------------------------------
 
-module.exports = {
+module.exports = 
   obtenerMayor,
   mayoriaDeEdad,
   conection,
