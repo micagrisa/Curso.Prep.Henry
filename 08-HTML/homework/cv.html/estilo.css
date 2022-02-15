@@ -1,0 +1,25 @@
+#titulo {
+    background-color:rgb(248, 153, 118);
+    display: flex; 
+    justify-content: center;
+    color: rgb(128, 68, 0);
+}
+body { 
+    background-image: url(ddf45b39fef93afacd5d10befaa8033f.jpg);
+    background-size:100%;
+
+    color: rgb(158, 52, 3);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+    img {
+        height: 250px;
+        margin: auto;
+    }
+    h2 {
+       display: flex;
+        justify-content: center;
+        color: rgb(79, 18, 105);
+    }
+    H3 {
+        color: darkorange;
+    }

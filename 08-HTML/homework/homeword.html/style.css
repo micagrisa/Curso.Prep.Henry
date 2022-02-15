@@ -1,0 +1,21 @@
+H1 { color: rgb(252, 6, 6);}
+
+IMG {width: 400px;}
+
+#thirdDiv {
+height: 600px;
+width: 500px;
+background-color: rgba(252, 223, 93, 0.527);
+padding: 50px;
+border: 5px inset rgba(252, 6, 6, 0.527);
+}
+
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+}
+
+body { 
+background-image: url(1c6b6cd5e3f35cb01250f6d04526993d.jpg);
+background-size: 100%;
+}
