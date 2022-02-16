@@ -120,11 +120,9 @@ function esPrimo(numero) {
   // Nota: Los números 0 y 1 NO son considerados números primos
   if (  número  <  2 )  return  falso ;
   if ( numero  ===  2 )  return verdadero ;
-  for ( var  i  =  2 ;  i  <  numero ;  i ++ )  {
-    si ( numero  %  i  ===  0 )  {
-      return  falso ;
-    }
-  }
+  for ( var  i  =  2 ;  i  <  numero ;  i ++ ) 
+   {if ( numero  %  i  ===  0 ) 
+     {return  falso ;}}
   return  verdadero ;
 }
 function esVerdadero(valor){
