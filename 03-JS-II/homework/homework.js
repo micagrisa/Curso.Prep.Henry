@@ -70,7 +70,7 @@ function estaEnRango(numero) {
   // De lo contrario, devuelve "false"
   // Tu código:
   if (numero<50 && numero>20) {return true}
-  else  { return false};
+  else  {return false};
 }
 
 function esEntero(numero) {
