@@ -6,10 +6,10 @@ function crearGato(nombre, edad) {
   // Agrega un método (funcion) llamado "meow" que devuelva el string "Meow!"
   // Devuelve el objeto
   // Tu código:
-   var Gato = {
+    Gato = {
     nombre: "mishuni",
     edad: "3",
-    meow: function (){ return "Meow!"}
+    meow : function (){ return "Meow!"}
   }
   return Gato;
 }
@@ -45,6 +45,7 @@ function eliminarPropiedad(objeto, unaPropiedad) {
   // tip: tenes que usar bracket notation
   // Devuelve el objeto
   // Tu código:
+  delete objeto.unaPropiedad;
 }
 
 function nuevoUsuario(nombre, email, password) {
